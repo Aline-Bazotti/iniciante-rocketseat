@@ -5,16 +5,16 @@ function toggleMode() {
   //pegar a tag image e substituir a imagem pra light
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-light.jpg")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos escuros e jaqueta preta, sem barba e fundo azul"
+      "Foto de Alex e Aline com gato chamado mumu no colo recebendo um beijinho e fechando um dos olhos"
     )
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.jpg")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo"
+      "Foto de Alex e Aline com gato chamado mumu no colo"
     )
   }
 }
